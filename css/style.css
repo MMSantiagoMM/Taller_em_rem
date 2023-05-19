@@ -1,6 +1,9 @@
+
 body {
     font-size: 10px;
-    background-image: url("../img/download.jpeg");
+    background-image: url("../img/fondo_2");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h1,h2 {
     text-align: center;
@@ -14,12 +17,17 @@ h1,h2 {
     margin: 2em;
     display: flex;
     justify-content: space-around;
-    background-color: rgba(240, 248, 255, 0.664);
+    /*background-color: rgba(240, 248, 255, 0.664); */
+    flex-wrap: wrap; 
 }
 .art-one, .art-two {
     margin-top: 0.2em;
-    height: 22em;
+    height: 16em;
     width: 22em;
+    flex: 1;
+    min-width: 300px; 
+    background-color: rgba(240, 248, 255, 0.664);
+    margin: 0 2em;
 }
 p {
     font-size: 0.76em;
@@ -30,12 +38,13 @@ p {
     margin: 2em;
     display: flex;
     justify-content: space-around;
-    background-color: rgba(240, 248, 255, 0.664);
+    /* background-color: rgba(240, 248, 255, 0.664); */
 }
 .art-one-inf{
     margin-top: 1em;
     height: 14em;
     width: 25em;
+    background-color: rgba(240, 248, 255, 0.664);
 }
 .art-one-inf > img {
     width: 25em;
@@ -52,6 +61,7 @@ p {
     margin-top: 1rem;
     height: 18rem;
     width: 30rem;
+    background-color: rgba(240, 248, 255, 0.664);
 }
 
 .art-two-inf > .art-two-inf-one {
@@ -71,6 +81,13 @@ p {
     margin :0.2rem 2.3rem;
     text-align: center;
     font-size: 3rem;
+}
+.aside-one {
+    background-image: url("../img/aside_1");
+}
+.aside-two{
+    background-image: url("../img/aside_2");
+    color: purple;
 }
 
 footer {
