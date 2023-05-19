@@ -1,0 +1,84 @@
+body {
+    font-size: 10px;
+    background-image: url("../img/download.jpeg");
+}
+h1,h2 {
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.788);
+    color: rgba(240, 248, 255, 0.808);
+}
+.articles_sup{
+    font-size: 20px;
+    height: 20rem;
+    margin: 2em;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(240, 248, 255, 0.664);
+}
+.art-one, .art-two {
+    margin-top: 0.2em;
+    height: 22em;
+    width: 22em;
+}
+p {
+    font-size: 0.76em;
+}
+.articles_inf {
+    font-size: 20px;
+    height: 20rem;
+    margin: 2em;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(240, 248, 255, 0.664);
+}
+.art-one-inf{
+    margin-top: 1em;
+    height: 14em;
+    width: 25em;
+}
+.art-one-inf > img {
+    width: 25em;
+    height: 9.2em;
+}
+.art-one-inf > h1 {
+    margin: 0;
+}
+.art-one-inf > p{
+    font-size: 0.6em;
+    margin-top: 0;
+}
+.art-two-inf {
+    margin-top: 1rem;
+    height: 18rem;
+    width: 30rem;
+}
+
+.art-two-inf > .art-two-inf-one {
+    height: 10rem;
+    font-size: 1.24rem;
+}
+.art-two-inf-one > p {
+    font-size: 0.73rem;
+}
+
+.art-two-inf > .aside-one, .aside-two {
+    background-color: rgba(0, 0, 0, 0.705);
+    color: aliceblue;
+    height: 7rem;
+    width: 10rem;
+    display: inline-block;
+    margin :0.2rem 2.3rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+footer {
+    height: 10rem;
+    background-color: rgba(0, 0, 0, 0.815);
+    color: aliceblue;
+    font-size: 2rem;
+}
+footer > p {
+    font-size: 1.2rem;
+}
